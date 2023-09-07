@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Assignment blog",
+    "section": "",
+    "text": "Welcome! Assignment #1\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Assignment 2",
+    "section": "",
+    "text": "Codes for assignment 2\n\nplot(iris, pch=16, cex = .4, col=\"forestgreen\")"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Karl Ho",
+    "section": "",
+    "text": "Assignment 2\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nSep 6, 2023\n\n\nKarl Ho\n\n\n\n\n\n\n  \n\n\n\n\nAssignment blog\n\n\n\n\n\n\n\nassignment\n\n\ngenerative art\n\n\n\n\n\n\n\n\n\n\n\nSep 3, 2023\n\n\nKarl Ho\n\n\n\n\n\n\nNo matching items"
+  }
+]
