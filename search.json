@@ -4,13 +4,13 @@
     "href": "index.html",
     "title": "Karl Ho",
     "section": "",
-    "text": "This is Karl Ho website.\n\nplot(mtcars)"
+    "text": "This is Karl Ho website.\nI am a political scientist and a data scientist. My favorite fruit is mango.\n\nplot(iris, cex = .5, pch= 20, col=\"steelblue\")"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "I am a data scientist and political scientist working on projects using election data and social media data.\n\nplot(iris)"
+    "text": "My research is on policy and elections in East Asia."
   }
 ]
