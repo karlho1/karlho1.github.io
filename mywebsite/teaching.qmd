@@ -1,0 +1,13 @@
+---
+title: "Teaching"
+---
+
+Karl Ho teaches:
+
+-   Data Methods
+
+-   Data Visualization
+
+-   Information Management (database)
+
+-   Knowledge Mining (Machine Learning)

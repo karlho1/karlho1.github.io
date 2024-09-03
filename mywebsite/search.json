@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Karl Ho",
+    "section": "",
+    "text": "Karl Ho Data Science in UTD EPPS.\n\nplot(iris, col=\"forestgreen\")"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Karl Ho is professor of Data Science in UTD EPPS."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Karl Ho studies Language models."
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Karl Ho teaches:\n\nData Methods\nData Visualization\nInformation Management (database)\nKnowledge Mining (Machine Learning)"
+  },
+  {
+    "objectID": "personal.html",
+    "href": "personal.html",
+    "title": "Personal",
+    "section": "",
+    "text": "I am a dog 🐶 person. I don’t hate feline😿 as long as they catch mice.🐀"
+  }
+]
