@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Karl Ho is data scientist, working on election research.\n\nplot(mtcars)"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Karl Ho",
+    "section": "",
+    "text": "This is Karl Ho website.\n\nplot(iris)"
+  },
+  {
+    "objectID": "project.html",
+    "href": "project.html",
+    "title": "project",
+    "section": "",
+    "text": "Karl Ho is data scientist, working on election research.\n\nplot(mtcars)"
+  }
+]
