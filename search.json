@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Tom Chang",
+    "section": "",
+    "text": "Tom Chang is a IT Specialist with expertise in cybersecurity systems. His aspiration is to build security-empowered systems for business and professional functions. He is graduating in 2026 with Master Degree in ITM and cybersecurity.\n\nplot(iris, col=\"firebrick\", pch=20, cex=.8)"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Tom loves cats and baseball. He is a cousin of Ohtani Shohei.\n\nhist(rnorm(1000), col=\"lightblue\", border=\"white\", main=\"Random Normal Distribution\", xlab=\"Value\", ylab=\"Frequency\")"
+  }
+]
