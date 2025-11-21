@@ -1,14 +1,16 @@
 ---
-title: "Plotly Dashboard"
+title: "Team UTD Dashboard"
 format: 
   dashboard:
     theme: united
     orientation: rows
 ---
 
-This dashboard uses the **Plotly** package, with example data.
+Project Dashboard for Team UTD: Analyzing World data and GPD and Health
 
 # chart 1
+
+Part 1: descriptives
 
 ## {.sidebar}
 
@@ -92,3 +94,20 @@ fig
 
 
 # chart 2
+
+Part 2: Relationship
+
+```{r}
+plotly::plot_ly(
+  data = mtcars,
+  x = ~wt,
+  y = ~mpg,
+  type = 'scatter',
+  mode = 'markers',
+  color = ~as.factor(cyl),
+  marker = list(size = 10,
+                opacity = 0.5,
+                line = list(width = 2,
+                            color = 'rgb(0, 0, 0)'))
+)
+```
