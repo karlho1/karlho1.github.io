@@ -1,0 +1,85 @@
+---
+title: "Plotly Dashboard"
+format: 
+  dashboard:
+    theme: united
+    orientation: rows
+---
+
+This dashboard uses the **Plotly** package, with example data.
+
+# Midwest data
+
+Demographic information of midwest counties from 2000 US census
+
+```{r}
+#| message: false
+#| warning: false
+library(plotly)
+fig <- plot_ly(midwest, x = ~percollege, color = ~state, type = "box")
+fig
+```
+
+# Gapminder data
+
+
+Use Gapminder data to illustrate interactive charts.  Note the font use, color choices and animation button and slider control.
+
+```{r  message=FALSE}
+
+#install.packages("gapminder")
+library(gapminder)
+library(RColorBrewer)
+library(plotly)
+
+# Read in Gapminder data
+df <- gapminder 
+
+# Font management
+
+t <- list(
+  family = "corgaramond",
+  size = 12)
+
+# Create figure object
+fig <- df %>%
+  plot_ly(
+    x = ~gdpPercap, 
+    y = ~lifeExp,
+    size = ~pop, 
+    color = ~continent, 
+    colors = c("slateblue3", "steelblue", "firebrick", "forestgreen", "turquoise1"), 
+        # manually select colar 
+    alpha=.5, # translucent glyth
+    frame = ~year, 
+    text = ~country, 
+    hoverinfo = "text",
+    type = 'scatter',
+    mode = 'markers',
+    fill = ~''
+  )
+
+# Add font to text
+fig <- fig %>% layout(
+  xaxis = list(
+    type = "log"
+  ), font = t
+)
+
+
+fig <- fig %>% layout(legend = list(orientation = "h",   # show entries horizontally
+                     xanchor = "center",  # use center of legend as anchor
+                     x = 0.5, y = 100))             # put legend in center of x-axis
+
+fig <- fig %>% animation_button(
+  x = 1, xanchor = "right", y = 0, yanchor = "bottom"
+)
+fig <- fig %>% animation_slider(
+  currentvalue = list(prefix = "YEAR ", font = list(color="red"))
+)
+fig
+
+
+```
+
+
