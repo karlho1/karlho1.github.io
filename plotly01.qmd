@@ -8,9 +8,17 @@ format:
 
 This dashboard uses the **Plotly** package, with example data.
 
-# Midwest data
+# chart 1
+
+## {.sidebar}
+
+This is a sidebar. 
+
+## Midwest data
 
 Demographic information of midwest counties from 2000 US census
+
+This dashboard uses the `midwest` dataset from the `ggplot2` package to create an interactive box plot showing the percentage of college-educated individuals (`percollege`) across different states.
 
 ```{r}
 #| message: false
@@ -20,7 +28,7 @@ fig <- plot_ly(midwest, x = ~percollege, color = ~state, type = "box")
 fig
 ```
 
-# Gapminder data
+## Gapminder data
 
 
 Use Gapminder data to illustrate interactive charts.  Note the font use, color choices and animation button and slider control.
@@ -83,3 +91,4 @@ fig
 ```
 
 
+# chart 2
