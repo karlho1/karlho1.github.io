@@ -1,0 +1,159 @@
+/* ---- Theme Variables ---- */
+:root {
+  --easter-gold: #c9a84c;
+  --easter-cream: #fdf8ef;
+  --easter-dark: #2c2417;
+  --easter-gray: #6b6156;
+  --easter-light-gray: #a89e93;
+  --easter-highlight: #d4a843;
+}
+
+/* ---- Base Slide ---- */
+.reveal .slides > section > section { 
+  text-align: left; 
+}
+
+.reveal .slide {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color: var(--easter-dark);
+  background-color: var(--easter-cream);
+}
+
+/* ---- Headings ---- */
+.reveal .slide h1 {
+  color: var(--easter-gray);
+  font-family: "Palatino", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  border-bottom: 3px solid var(--easter-gold);
+  padding-bottom: 0.3em;
+  margin-bottom: 0.6em;
+}
+.reveal .slide h2 {
+  color: var(--easter-gray);
+  font-family: "Palatino", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  border-bottom: 2px solid var(--easter-gold);
+  padding-bottom: 0.3em;
+  margin-bottom: 0.6em;
+}
+
+.reveal .slide h3 {
+  color: var(--easter-gold);
+  font-family: "Palatino", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-style: italic;
+  font-size: 1.1em;
+}
+
+.reveal .slide h6 {
+  font-family: "Helvetica", Helvetica, Arial, sans-serif;
+  color: var(--easter-gray);
+}
+
+/* ---- Lists ---- */
+.reveal ol {
+  margin: 0 0 0 1.5em; 
+}
+
+.reveal ul li {
+  margin-bottom: 0.5em;
+  line-height: 1.5;
+}
+
+/* ---- Scripture / Blockquote Styling ---- */
+.reveal blockquote {
+  background-color: rgba(201, 168, 76, 0.10);
+  border-left: 4px solid var(--easter-gold);
+  padding: 0.8em 1.2em;
+  font-style: italic;
+  color: var(--easter-dark);
+  font-size: 0.95em;
+  margin: 0.8em 0;
+  border-radius: 0 6px 6px 0;
+}
+
+/* ---- Utility Classes ---- */
+.center-xy {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translateY(-50%), translateX(-50%);
+  transform: translateY(-50%), translateX(-50%);
+}
+
+.center-text {
+  text-align: center;
+}
+
+.last-paragraph {
+  color: var(--easter-gold);
+}
+
+.mediumsize {
+  font-size: 0.8em;
+}
+
+.small-table table {
+  font-size: 0.8em;
+}
+
+/* ---- Title Slide ---- */
+.reveal .slides section.title-slide {
+  text-align: center;
+}
+
+.reveal .slides section.title-slide h1 {
+  color: var(--easter-dark);
+  font-family: "Palatino", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 2.4em;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+}
+
+.reveal .slides section.title-slide .subtitle {
+  color: var(--easter-gold);
+  font-size: 1.1em;
+  font-style: italic;
+  margin-top: 0.3em;
+}
+
+/* ---- Emphasis box for key phrases ---- */
+.callout-box {
+  background-color: rgba(201, 168, 76, 0.12);
+  border: 1px solid var(--easter-gold);
+  border-radius: 8px;
+  padding: 1em 1.4em;
+  margin: 1em 0;
+  font-size: 1.05em;
+}
+
+/* ---- Reflection / Discussion prompt ---- */
+.reflection {
+  background-color: rgba(44, 36, 23, 0.06);
+  border-left: 5px solid var(--easter-gray);
+  padding: 1em 1.4em;
+  margin: 1.2em 0;
+  border-radius: 0 8px 8px 0;
+  font-style: italic;
+  color: var(--easter-gray);
+}
+
+/* ---- Scripture reference tag ---- */
+.scripture-ref {
+  font-size: 0.8em;
+  color: var(--easter-light-gray);
+  text-align: right;
+  margin-top: 0.3em;
+}
+
+/* ---- Footer ---- */
+.reveal .footer {
+  font-size: 0.6em;
+  color: var(--easter-light-gray);
+}
+
+/* ---- Separator line ---- */
+.divider {
+  border: none;
+  border-top: 1px solid var(--easter-gold);
+  margin: 1.5em 0;
+  opacity: 0.5;
+}
