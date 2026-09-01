@@ -1,0 +1,9 @@
+---
+title: ""
+---
+
+Karl Ho website
+
+```{r}
+plot(iris, pch=20, col=iris$Species, cex=.8)
+```
